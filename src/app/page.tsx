@@ -7,6 +7,7 @@ export default async function Home() {
   const blogData: BlogData[] = await fetchBlogData();
   // console.log(blogData);
 
+  
   return (
     <div className="space-y-12 px-2 lg:px-6">
       {/* Hero section */}
